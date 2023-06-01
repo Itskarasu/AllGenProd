@@ -1,0 +1,685 @@
+@font-face {
+    font-family: 'Aldo';
+    src: url('./Fonts/Aldo.ttf');
+    font-family: 'Burford';
+    src: url('/Fonts/Burford');
+}
+@font-face {
+    font-family: 'Barlow';
+    src: url('./Fonts/Barlow-Black.ttf');
+ 
+}
+@font-face {
+    font-family: 'AldoSemiBold';
+    src: url('./Fonts/Aldo\ SemiBold\ 600.ttf');
+ 
+}
+@font-face {
+    font-family: 'Monsterat';
+    src: url('./Fonts/Montserrat-VariableFont_wght.ttf');
+ 
+    }
+@font-face {
+      font-family: 'Poppins-Light';
+      src: url('./Fonts/Poppins-Light.ttf');
+    }
+    @font-face {
+      font-family: 'Poppins-ExtraLight';
+      src: url('./Fonts/Poppins-ExtraLight.ttf');
+    }
+    @font-face {
+      font-family: 'Poppins-Semibold';
+      src: url('./Fonts/Poppins-SemiBold.ttf');
+    }
+    @font-face {
+      font-family: 'Poppins-Regular';
+      src: url('./Fonts/Poppins-Regular.ttf');
+    }    
+@font-face {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro'), url('Acumin-RPro.woff') format('woff');
+    }
+    
+
+ @font-face {
+    font-family: 'Acumin Pro Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro Italic'), url('Acumin-ItPro.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Acumin Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro Bold'), url('Acumin-BdPro.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Acumin Pro Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro Bold Italic'), url('Acumin-BdItPro.woff') format('woff');
+    }
+    @media (min-width: 600px) {
+        main {
+          flex-wrap: nowrap;
+        }
+    
+        div {
+          flex-basis: 33%;
+        }
+      }
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+  img {
+    max-width: 100%;
+  }
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    padding:0 7;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.slide-1,.slide-2,.slide-3,.slide-4,.slide-5,.slide-6{
+    height: 100%;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+
+}
+.slide-1{
+    animation:fade1 30s infinite;
+}
+.slide-2{
+    animation:fade2 30s infinite;
+}
+.slide-3{
+    animation:fade3 30s infinite;
+}
+.slide-4{
+    animation:fade4 30s infinite;
+}
+.slide-5{
+    animation:fade5 30s infinite;
+}
+.slide-6{
+    animation:fade6 30s infinite;
+}
+@keyframes fade1 {
+    0%{ opacity: 1;}
+    25%{ opacity: 0;}
+    50%{ opacity: 0;}
+    75%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+@keyframes fade2 {
+    0%{ opacity: 0;}
+    25%{ opacity: 1;}
+    50%{ opacity: 0;}
+    75%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+@keyframes fade3 {
+    0%{ opacity: 0;}
+    25%{ opacity: 0;}
+    50%{ opacity: 1;}
+    75%{ opacity: 0;}
+    100%{ opacity: 0;}
+}
+@keyframes fade4 {
+    0%{ opacity: 0;}
+    25%{ opacity: 0;}
+    50%{ opacity: 0;}
+    75%{ opacity: 1;}
+    100%{ opacity: 0;}
+}
+@keyframes fade5 {
+    0%{ opacity: 0;}
+    25%{ opacity: 0;}
+    50%{ opacity: 0;}
+    75%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+@keyframes fade6 {
+    0%{ opacity: 1;}
+    25%{ opacity: 0;}
+    50%{ opacity: 0;}
+    75%{ opacity: 0;}
+    100%{ opacity: 0;}
+}
+
+
+
+/*------ Second Page------*/
+.thirdPage{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-size: cover;
+    padding:0 7;   
+}
+.thirdPage section{
+    min-height: 100vh;
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.rorrrrrrrr{
+  
+  color: #49cbfc;
+  top: 220px;
+  right: 461px;
+  display: flex;
+  position: relative;
+  font-family: 'Monsterat';
+  font-weight: bolder;
+  
+}
+
+.description p{
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  color:white;
+  width: 425px;
+  height: 350px;
+  object-fit: none;
+  justify-content: left;
+  object-position: 5px 10%;
+  float: left;
+  margin: left;
+  display: block;
+  color: white;
+  top: 220px;
+  right: 60px;
+  display: flex;
+  position: relative;
+  
+}
+
+.thirdPage h1{
+  font-size: 17px;
+  color: white;
+  top: 99px;
+  right: 651px;
+  display: flex;
+  position: relative;
+  font-family: 'Poppins-ExtraLight';
+}
+.Photoads{
+    width: 425px;
+    height: 725px;
+    object-fit: none;
+    object-position: 5px 10%;
+    border: 5px solid black;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+/*------ Third Page------*/
+.SecondPage{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    padding:0 7;
+    box-sizing: border-box;   
+}
+
+.SecondPage section{
+    min-height: 100vh;
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BorderTry{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 40px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.CreativeDesign{
+    font-size: 24px;
+    margin: 2rem 0rem;
+    color:white;
+    font-family:'Monsterat';
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.CreativeDesign1{
+    font-size: 1rem;
+    margin: 2rem 0rem;
+    color:white;
+    
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.BorderTry1{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.dropdown{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+    
+}
+.dropdown li{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    font-family: 'Monsterat';
+    font-weight: bold;
+    
+}
+.BorderTry.active .dropdown{
+    max-height: 700px;
+}
+.BorderTry1.active .dropdown{
+    max-height: 10px;
+}
+.SecondPage h1{
+    color:white;
+    left: 255px;
+    display: flex;
+    position: absolute;
+    font-size: 17PX;
+    font-family: 'Poppins-ExtraLight';
+
+}
+li{
+    font-family: 'Monsterat';
+    font-weight: lighter;
+    color: white;
+    justify-content: start    
+  }
+p{
+   padding-top: 1rem;
+   font-weight: light;
+   line-height: 32px;
+   font-size: 1.4rem;
+   font-family: 'Monsterat';
+}
+.BorderTry.active svg{
+    transform: rotate(180deg);
+}
+.BorderTry1.active svg{
+    transform: rotate(180deg);
+}
+svg{
+    transition: transform .5s ease-in
+}
+
+.kurukuru .hotdog{
+  position: relative;
+  color: white;
+  font-family: 'Poppins-ExtraLight';
+  display: block;
+  top: 100px;
+  left: -420px;
+  width: 35rem;
+  height: 5rem;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.BorderTry :hover{
+    background-color: #ccc;
+}
+
+
+/* 4th Page*/
+.product {
+    
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    
+  }
+  
+  .product-category {
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+  }
+  
+  .product-image {
+    margin-bottom: 140px;
+    position: relative;
+    max-width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .discount-tag {
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+  }
+  
+  .card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+
+  
+  
+  .product-info {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+  }
+  
+  .product-brand {
+    text-transform: uppercase;
+  }
+  
+  .product-short-description {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+  }
+  
+  .price {
+    font-weight: 900;
+    font-size: 20px;
+  }
+  
+  .actual-price {
+    margin-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
+  .collection-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .collection {
+    position: relative;
+  }
+  
+  .collection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .collection p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+  
+  .collection:nth-child(3) {
+    grid-column: span 2;
+    margin-bottom: 10px;
+  }
+
+
+
+  
+/*5th Page*/
+.finalpage section{
+    background-image: url('./pg5/pg\ 5.png');
+    min-height: 100vh;
+    width: 100%;
+}
+.join p{
+    position: relative;
+    color: white;
+    font-size-adjust: initial;
+    font-family: 'Poppins-semibold';
+    align-items: center;
+    display: flex;
+    top: 199px;
+    left: 250px;
+    width: 25rem;
+    height: 10rem;
+    font-size: 90px;
+    line-height: 1;
+}
+.join .ror{
+    position: relative;
+    color: white;
+    font-size-adjust: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    top: 225px;
+    left: 250px;
+    width: 35rem;
+    height: 5rem;
+    font-size: 40px;
+    line-height: 1;
+}
+.join .rorr{
+    position: relative;
+    color: white;
+    font-size-adjust: initial;
+    font-family: 'Poppins-Regular';
+    align-items: center;
+    display: flex;
+    top: 260px;
+    left: 1150px;
+    width: 20rem;
+    height: 5rem;
+    font-size: 25px;
+    line-height: 1;
+}
+.joinn .rorrr{
+    position: relative;
+    color: white;
+    font-size-adjust: initial;
+    align-items: center;
+    display: flex;
+    top: 260px;
+    left: 1150px;
+    width: 35rem;
+    height: 5rem;
+    font-size: 25px;
+    line-height: 1;
+    font-weight: bolder;
+    font-family: 'Monsterat';
+}
+.joinn .rorrrr{
+    position: relative;
+    color: white;
+    font-size-adjust: initial;
+    font-family: 'Monsterat';
+    align-items: center;
+    display: flex;
+    top: 235px;
+    left: 62.6%;
+    width: 35rem;
+    height: 5rem;
+    font-size: 20px;
+    line-height: 1;
+    
+
+}
+.joinn .rorrrrr{
+    position: relative;
+    color: white;
+    font-size-adjust: initial;
+    font-family: 'Monsterat';
+    align-items: center;
+    display: flex;
+    top: 210px;
+    left: 62.6%;
+    width: 35rem;
+    height: 5rem;
+    font-size: 20px;
+    line-height: 1;
+}
+.joinn .rorrrrrr{
+    position: relative;
+    color: white;
+    font-size-adjust: initial;
+    font-family: 'Monsterat';
+    align-items: center;
+    display: flex;
+    top: 180px;
+    left: 62.6%;
+    width: 35rem;
+    height: 5rem;
+    font-size: 20px;
+    line-height: 1;
+}
+.joinn .roorr{
+  position: relative;
+  width: 410px;
+  top: 240px;
+  left: 100px;
+  color: white;
+  font-size: 15px;
+  font-family:'Monsterat' ;
+}
+.registerB{
+   
+    position: relative;
+    width:18%;
+    height: 80px; 
+    top: -5.2%;
+    margin-top:-2.5%;
+    left: 13%;
+    border-radius: 25rem;
+    font-size: 25px;
+    background-color: #4800FF;
+    color:white;
+    font-family: 'Poppins-semibold';
+    font-weight: bolder;
+}
